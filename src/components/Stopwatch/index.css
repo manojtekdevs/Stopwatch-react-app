@@ -1,0 +1,139 @@
+.app-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Roboto';
+}
+
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+.main-heading {
+  color: #333333;
+  font-size: 36px;
+}
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 95%;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+.timer-logo-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.timer-icon {
+  width: 28px;
+  margin: 0px;
+  margin-right: 4px;
+}
+.timer {
+  color: #333333;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 26px;
+}
+.timer-in-min-sec {
+  color: #333333;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.timer-control-btns-container {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+.timer-control-btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+  width: 60px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.start-btn {
+  background-color: #1db05f;
+}
+.stop-btn {
+  background-color: #ef0d36;
+}
+.reset-btn {
+  background-color: #eaa800;
+}
+@media screen and (min-width: 576px) {
+  .app-bg-container {
+    height: 130vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .app-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-size: cover;
+    height: 60vh;
+    justify-content: flex-start;
+    padding-left: 50px;
+  }
+  .stopwatch-container {
+    width: 500px;
+  }
+  .main-heading {
+    font-size: 52px;
+  }
+  .timer-icon {
+    width: 38px;
+  }
+  .timer {
+    font-size: 38px;
+  }
+  .timer-in-min-sec {
+    font-size: 52px;
+  }
+  .timer-control-btn {
+    font-size: 20px;
+    padding: 8px;
+    width: 80px;
+    border-radius: 10px;
+  }
+  .timer-logo-card {
+    margin-bottom: 30px;
+  }
+  .timer-in-min-sec {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .app-bg-container {
+    height: 100vh;
+  }
+  .stopwatch-container {
+    width: 600px;
+  }
+  .timer-logo-card {
+    margin-bottom: 40px;
+  }
+  .timer-in-min-sec {
+    margin-bottom: 40px;
+  }
+}
